@@ -7,9 +7,14 @@ Data wrangling with pandas and seaborn, visualizing data.
 Discover:
 * There are different months, not only January. Is it a typo?
 * There are up tu 55k records of trips with 0 distance. What is thist? Typo?
-* Binning distance serie to group data
-* Plotting differences between pickup zones and dropoff zones
-* Analyze total_amount
-* Calculate trip duration
-* Reducing Dataframe to yellow zone
-* Pivot table hour/zone to get higher demanding zones
+* Most trips were below 84 miles and $20.
+
+Steps:
+* Cast datetime objects to type datetime64. 
+* Extract month, day and hour.
+* Calculate trip duration from the difference between pickup hour and dropoff hour.
+* Binning distance serie to group data and explore distances.
+* Plotting differences between pickup zones and dropoff zones.
+* Analyze total_amount. 
+* Reducing Dataframe to yellow zone.
+* Pivot table hour/zone to get higher demanding zones.
