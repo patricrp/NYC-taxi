@@ -8,3 +8,4 @@ Discover:
 * There are different months, not only January. Is it a typo?
 * There are up tu 55k records of trips with 0 distance. What is thist? Typo?
 * Binning distance serie to group data
+* Plotting differences between pickup zones and dropoff zones
