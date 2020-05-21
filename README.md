@@ -12,6 +12,7 @@ Discover:
 Steps:
 * Cast datetime objects to type datetime64. 
 * Extract month, day and hour.
+* Create time_sections to group hours.
 * Calculate trip duration from the difference between pickup hour and dropoff hour.
 * Binning distance serie to group data and explore distances.
 * Plotting differences between pickup zones and dropoff zones.
